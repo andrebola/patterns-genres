@@ -1,0 +1,6 @@
+output.mid
+output.mid
+../../../deleteme/A0323.mid
+A0323.mid
+../../../deleteme/A0425.mid
+A0425.mid

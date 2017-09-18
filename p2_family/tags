@@ -1,0 +1,793 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABS	util.h	60;"	d
+ADJUST_SCALE	geometric_SP1.c	50;"	d	file:
+ADJUST_SCALE	geometric_SP1.fast.c	49;"	d	file:
+ADJUST_SCALE	geometric_SP1.good.c	47;"	d	file:
+ALGORITHM_INFO	algorithms.c	/^static const alg_info ALGORITHM_INFO[] = {$/;"	v	file:
+ALG_ALIGN_P3	algorithms.h	148;"	d
+ALG_FG_6	algorithms.h	140;"	d
+ALG_FG_7	algorithms.h	142;"	d
+ALG_MSM_FFT	algorithms.h	134;"	d
+ALG_MSM_FFT_LOOKUP_1	algorithms.h	136;"	d
+ALG_MSM_FFT_LOOKUP_2	algorithms.h	138;"	d
+ALG_MSM_MFD_1D	algorithms.h	128;"	d
+ALG_MSM_MFD_1D_QUICK	algorithms.h	130;"	d
+ALG_MSM_MFD_1D_QUICK_SPACEEFF	algorithms.h	132;"	d
+ALG_MSM_MFD_2D	algorithms.h	124;"	d
+ALG_MSM_MFD_2D_QUICK	algorithms.h	126;"	d
+ALG_P1	algorithms.h	53;"	d
+ALG_P2	algorithms.h	57;"	d
+ALG_P2_POINTS	algorithms.h	62;"	d
+ALG_P3	algorithms.h	66;"	d
+ALG_SP1	algorithms.h	69;"	d
+ALG_SP2	algorithms.h	72;"	d
+ALIGNMENT_FUNCTIONS	align.c	/^static void (* const ALIGNMENT_FUNCTIONS[])(const songcollection *sc,$/;"	v	file:
+ALIGNMENT_MAP_FUNCTIONS	align.c	/^static void (* const ALIGNMENT_MAP_FUNCTIONS[])(const songcollection *sc,$/;"	v	file:
+ALIGN_ARG_ALGORITHM	align.c	144;"	d	file:
+ALIGN_ARG_ALIGNMENT_DELAY	align.c	157;"	d	file:
+ALIGN_ARG_HELP	align.c	143;"	d	file:
+ALIGN_ARG_MAPPING_ALGORITHM	align.c	145;"	d	file:
+ALIGN_ARG_MAP_ACCURACY	align.c	151;"	d	file:
+ALIGN_ARG_MAX_PATTERN_SIZE	align.c	153;"	d	file:
+ALIGN_ARG_MAX_SLOPE	align.c	149;"	d	file:
+ALIGN_ARG_OUTPUT_MIDI	align.c	147;"	d	file:
+ALIGN_ARG_OUTPUT_PGM_MAP	align.c	148;"	d	file:
+ALIGN_ARG_P3_NUM_SCALES	align.c	155;"	d	file:
+ALIGN_ARG_P3_WINDOW_SIZE	align.c	154;"	d	file:
+ALIGN_ARG_PATTERN	align.c	152;"	d	file:
+ALIGN_ARG_SEARCH_ALGORITHM	align.c	146;"	d	file:
+ALIGN_ARG_SKIP_COST	align.c	150;"	d	file:
+ALIGN_ARG_SONG_TEMPO	align.c	156;"	d	file:
+ALLOW_SKIPS	sync_P3.c	48;"	d	file:
+ANCHOR_DELTA	geometric_SP1.c	67;"	d	file:
+ANCHOR_DELTA	geometric_SP1.fast.c	64;"	d	file:
+BITCOUNT_TABLE	gh.c	/^static char BITCOUNT_TABLE[65536];$/;"	v	file:
+BITCOUNT_TABLE_INITIALIZED	gh.c	/^static int BITCOUNT_TABLE_INITIALIZED = 0;$/;"	v	file:
+CALCULATE_WEIGHTS	geometric_SP1.good.c	49;"	d	file:
+CHANNEL_MASK	midifile.h	67;"	d
+CLEAR_DATA_FORMAT	data.c	/^static void (* const CLEAR_DATA_FORMAT[])(void *data) = {$/;"	v	file:
+COMPARE_TO_ORIGIN	geometric_SP1.c	48;"	d	file:
+COMPARE_TO_ORIGIN	geometric_SP1.fast.c	47;"	d	file:
+COMPARE_TO_ORIGIN	geometric_SP1.good.c	45;"	d	file:
+COMPENSATION_FACTOR	geometric_P2.c	46;"	d	file:
+CONTROLLER_ALL_NOTES_OFF	midifile.h	89;"	d
+CONTROLLER_ALL_SOUND_OFF	midifile.h	88;"	d
+CONVERT_SONG_COLLECTION	data.c	/^static int (* const CONVERT_SONG_COLLECTION[])($/;"	v	file:
+DATA_MSM	data_formats.h	47;"	d
+DATA_NONE	data_formats.h	45;"	d
+DATA_P3	data_formats.h	48;"	d
+DATA_VINDEX	data_formats.h	46;"	d
+DISTORTION_RATE	geometrictest.c	51;"	d	file:
+DOUBLE_SWAP	util.h	56;"	d
+EFFECT	geometric_SP1.c	/^static char EFFECT[] = {$/;"	v	file:
+EFFECT	geometric_SP1.fast.c	/^static char EFFECT[] = {$/;"	v	file:
+EFFECT	geometric_SP1.good.c	/^static char EFFECT[] = {$/;"	v	file:
+EFFECT_CENTER_X	geometric_SP1.c	128;"	d	file:
+EFFECT_CENTER_X	geometric_SP1.fast.c	125;"	d	file:
+EFFECT_CENTER_X	geometric_SP1.good.c	117;"	d	file:
+EFFECT_CENTER_Y	geometric_SP1.c	129;"	d	file:
+EFFECT_CENTER_Y	geometric_SP1.fast.c	126;"	d	file:
+EFFECT_CENTER_Y	geometric_SP1.good.c	118;"	d	file:
+EFFECT_HEIGHT	geometric_SP1.c	126;"	d	file:
+EFFECT_HEIGHT	geometric_SP1.fast.c	123;"	d	file:
+EFFECT_HEIGHT	geometric_SP1.good.c	115;"	d	file:
+EFFECT_WIDTH	geometric_SP1.c	127;"	d	file:
+EFFECT_WIDTH	geometric_SP1.fast.c	124;"	d	file:
+EFFECT_WIDTH	geometric_SP1.good.c	116;"	d	file:
+ENABLE_UNIT_TESTS	config.h	50;"	d
+END_PADDING	geometric_SP1.c	77;"	d	file:
+END_PADDING	geometric_SP1.fast.c	74;"	d	file:
+ENFORCE_MAX_SKIPS	geometric_SP1.c	56;"	d	file:
+ENFORCE_MAX_SKIPS	geometric_SP1.fast.c	55;"	d	file:
+ENFORCE_MAX_SKIPS	geometric_SP1.good.c	53;"	d	file:
+EVENT_AFTERTOUCH	midifile.h	72;"	d
+EVENT_CHANNEL_PRESSURE	midifile.h	75;"	d
+EVENT_CONTROLLER	midifile.h	73;"	d
+EVENT_END_OF_TRACK	midifile.h	84;"	d
+EVENT_ESCAPE	midifile.h	80;"	d
+EVENT_META	midifile.h	81;"	d
+EVENT_NOTE_OFF	midifile.h	70;"	d
+EVENT_NOTE_ON	midifile.h	71;"	d
+EVENT_PITCH_WHEEL	midifile.h	76;"	d
+EVENT_PROGRAM_CHANGE	midifile.h	74;"	d
+EVENT_SYSEX	midifile.h	79;"	d
+EVENT_TEMPO	midifile.h	85;"	d
+FILTER_P1_RANDOM	algorithms.h	77;"	d
+FILTER_P1_SAMPLE	algorithms.h	90;"	d
+FILTER_P1_SELECT_1	algorithms.h	81;"	d
+FILTER_P1_SELECT_2	algorithms.h	86;"	d
+FILTER_P2_GREEDY_PH	algorithms.h	114;"	d
+FILTER_P2_PH	algorithms.h	111;"	d
+FILTER_P2_POINTS	algorithms.h	119;"	d
+FILTER_P2_SELECT_GLOBAL	algorithms.h	108;"	d
+FILTER_P2_SELECT_LOCAL	algorithms.h	102;"	d
+FILTER_P2_WINDOW	algorithms.h	95;"	d
+FOLLOW_INSTRUMENT	geometric_SP1.c	60;"	d	file:
+FREE_DATA_FORMAT	data.c	/^static void (* const FREE_DATA_FORMAT[])(void *data) = {$/;"	v	file:
+HASH_SHIFT	geometric_SP1.c	73;"	d	file:
+HASH_SHIFT	geometric_SP1.fast.c	70;"	d	file:
+HASH_SHIFT	geometric_SP1.good.c	66;"	d	file:
+HASH_TIME_FACTOR	geometric_SP1.c	121;"	d	file:
+HASH_TIME_FACTOR	geometric_SP1.fast.c	118;"	d	file:
+HASH_TIME_FACTOR	geometric_SP1.good.c	111;"	d	file:
+HASH_TIME_MULTIPLIER	geometric_SP1.c	122;"	d	file:
+HASH_TIME_MULTIPLIER	geometric_SP1.fast.c	119;"	d	file:
+INDEXTEST_DEFAULT_ALGORITHMS	test.h	/^static const int INDEXTEST_DEFAULT_ALGORITHMS[] = {ALG_P2};$/;"	v
+INDEXTEST_DEFAULT_ALGORITHMS_NUM	test.h	97;"	d
+INF	partial.hpp	/^const int INF = (1<<30);$/;"	v
+INIT_DATA_FORMAT	data.c	/^static void *(* const INIT_DATA_FORMAT[])(void) = {$/;"	v	file:
+INLINE	config.h	102;"	d
+INLINE	config.h	97;"	d
+INLINE	config.h	99;"	d
+INT_SWAP	util.h	54;"	d
+LOG_DEBUG	config.h	48;"	d
+LOG_IMPORTANT	config.h	46;"	d
+LOG_INFO	config.h	47;"	d
+LONG_OPTIONS	align.c	/^static const struct option LONG_OPTIONS[] = {$/;"	v	typeref:struct:option	file:
+LONG_OPTIONS	test.c	/^static const struct option LONG_OPTIONS[] = {$/;"	v	typeref:struct:option	file:
+MAX2	util.h	47;"	d
+MAX_EDGE_WEIGHT	filter_P2.c	52;"	d	file:
+MAX_INDEX_BUCKET_SIZE	config.h	59;"	d
+MAX_INITIAL_SKIP	geometric_SP1.c	69;"	d	file:
+MAX_INITIAL_SKIP	geometric_SP1.fast.c	66;"	d	file:
+MAX_INITIAL_SKIP	geometric_SP1.good.c	62;"	d	file:
+MAX_PATTERN_SIZE	geometric_SP1.c	46;"	d	file:
+MAX_PATTERN_SIZE	geometric_SP1.fast.c	45;"	d	file:
+MAX_PATTERN_SIZE	geometric_SP1.good.c	55;"	d	file:
+MAX_SKIP	geometric_SP1.c	71;"	d	file:
+MAX_SKIP	geometric_SP1.fast.c	68;"	d	file:
+MAX_SKIP	geometric_SP1.good.c	64;"	d	file:
+MAX_SONG_DURATION	song.h	50;"	d
+MAX_SONG_SILENCE	geometric_SP1.c	76;"	d	file:
+MAX_SONG_SILENCE	geometric_SP1.fast.c	73;"	d	file:
+MAX_SONG_SILENCE	geometric_SP1.good.c	69;"	d	file:
+MAX_TRIES	filter_P1.c	45;"	d	file:
+MEASURE_TIME_ALLOCATION	config.h	86;"	d
+MIDI_CHANNELS	midifile.h	59;"	d
+MIDI_DEFAULT_FORMAT	midifile.h	47;"	d
+MIDI_DEFAULT_PPQN_DIVISION	midifile.h	48;"	d
+MIDI_DEFAULT_TEMPO	midifile.h	49;"	d
+MIDI_HEADER_SIZE	midifile.h	91;"	d
+MIDI_PERCUSSION_CHANNEL	midifile.h	60;"	d
+MIDI_READ_TRIM_BUFFERS	midifile.h	54;"	d
+MIDI_TRACK_HEADER_SIZE	midifile.h	92;"	d
+MIDI_TYPE3_GAP	midifile.h	45;"	d
+MIN2	util.h	50;"	d
+NOTE_LENGTH	geometrictest.c	47;"	d	file:
+NOTE_PITCHES	song.h	47;"	d
+NUM_ALGORITHMS	algorithms.h	46;"	d
+NUM_DATA_FORMATS	data_formats.h	43;"	d
+ORDER_F4_F5_RESULTS_WITH_P2	config.h	81;"	d
+P3_SCALES	align.c	/^static float P3_SCALES[][7] = {$/;"	v	file:
+P3_TIME_LIMIT	geometric_P3.h	47;"	d
+PARTIAL_HPP	partial.hpp	2;"	d
+PATH_SEPARATOR	test_qbsh.c	46;"	d	file:
+PATTERN_ANCHOR_POS	geometric_SP1.good.c	60;"	d	file:
+PATTERN_MIN_DELTA	geometric_SP1.c	79;"	d	file:
+PATTERN_MIN_DELTA	geometric_SP1.fast.c	76;"	d	file:
+PPQN	midifile.h	62;"	d
+PQV	partial.hpp	/^typedef std::vector<std::priority_queue<scale*,std::vector<scale*>,cmp> > PQV;$/;"	t
+PROBLEM_1	algorithms.h	153;"	d
+PROBLEM_2	algorithms.h	154;"	d
+PROBLEM_3	algorithms.h	155;"	d
+PROBLEM_4	algorithms.h	156;"	d
+PROBLEM_ALIGN	algorithms.h	157;"	d
+SEARCH_FUNCTIONS	search.c	/^static void (* const SEARCH_FUNCTIONS[])(const songcollection *sc,$/;"	v	file:
+SKIP_LINES	align.c	52;"	d	file:
+SKIP_PERCUSSION	align.c	49;"	d	file:
+SMF_MIN_SIZE	midifile.h	43;"	d
+SMPTE	midifile.h	63;"	d
+SONG_GAP	config.h	64;"	d
+STATUS_BIT	midifile.h	65;"	d
+STATUS_MASK	midifile.h	66;"	d
+STEP_SCALE	geometric_SP1.c	58;"	d	file:
+STEP_SCALE	geometric_SP1.fast.c	57;"	d	file:
+STEP_SCALE	geometric_SP1.good.c	57;"	d	file:
+SUFFIX_SEPARATOR	test_qbsh.c	47;"	d	file:
+TEMPO_FACTOR	geometric_SP1.c	63;"	d	file:
+TEMPO_FACTOR	geometric_SP1.fast.c	60;"	d	file:
+TEMPO_FACTOR	geometric_SP1.good.c	59;"	d	file:
+TEMPO_FACTOR	geometric_SP2.c	44;"	d	file:
+TEMPO_FACTOR	geometric_SP3.c	44;"	d	file:
+TEST_ARG_ALGORITHMS	test.c	51;"	d	file:
+TEST_ARG_ALG_NAME	test.c	52;"	d	file:
+TEST_ARG_COLLECTION_NOTES	test.c	71;"	d	file:
+TEST_ARG_C_WINDOW	test.c	57;"	d	file:
+TEST_ARG_DISTANCE_MATRIX	test.c	84;"	d	file:
+TEST_ARG_D_WINDOW	test.c	58;"	d	file:
+TEST_ARG_GENERATE_PATTERNS	test.c	74;"	d	file:
+TEST_ARG_HELP	test.c	50;"	d	file:
+TEST_ARG_INSERTED_NOISE	test.c	80;"	d	file:
+TEST_ARG_INSERTED_PATTERNS	test.c	79;"	d	file:
+TEST_ARG_JOIN_SONGS	test.c	68;"	d	file:
+TEST_ARG_MEASUREMENT_POINTS	test.c	85;"	d	file:
+TEST_ARG_MULTIPLE_MATCHES	test.c	83;"	d	file:
+TEST_ARG_NUM_REPEATS	test.c	55;"	d	file:
+TEST_ARG_NUM_RESULTS	test.c	82;"	d	file:
+TEST_ARG_OUTPUT	test.c	81;"	d	file:
+TEST_ARG_P1_SAMPLES	test.c	59;"	d	file:
+TEST_ARG_P2_FIXED_POINTS	test.c	62;"	d	file:
+TEST_ARG_P2_THRESHOLD	test.c	61;"	d	file:
+TEST_ARG_P2_WINDOW	test.c	60;"	d	file:
+TEST_ARG_P3_REMOVE_GAPS	test.c	89;"	d	file:
+TEST_ARG_PATTERN_ERRORS	test.c	78;"	d	file:
+TEST_ARG_PATTERN_MAX_SKIP	test.c	76;"	d	file:
+TEST_ARG_PATTERN_MAX_TP	test.c	77;"	d	file:
+TEST_ARG_PATTERN_NOTES	test.c	75;"	d	file:
+TEST_ARG_PATTERN_PATH	test.c	73;"	d	file:
+TEST_ARG_QUANTIZE	test.c	65;"	d	file:
+TEST_ARG_REMOVE_OCTAVES	test.c	66;"	d	file:
+TEST_ARG_RESULT_ROW_LABEL	test.c	86;"	d	file:
+TEST_ARG_RUN_TWICE	test.c	54;"	d	file:
+TEST_ARG_SEED	test.c	53;"	d	file:
+TEST_ARG_SHUFFLE_PATTERNS	test.c	70;"	d	file:
+TEST_ARG_SHUFFLE_SONGS	test.c	69;"	d	file:
+TEST_ARG_SIMILARITY_CUTOFF	test.c	72;"	d	file:
+TEST_ARG_SKIP_PERCUSSION	test.c	67;"	d	file:
+TEST_ARG_TIME_ALLOCATION	test.c	56;"	d	file:
+TEST_ARG_TIME_INDEXING	test.c	88;"	d	file:
+TEST_ARG_VECTOR_HEIGHT	test.c	64;"	d	file:
+TEST_ARG_VECTOR_WIDTH	test.c	63;"	d	file:
+TEST_ARG_VERBOSE	test.c	87;"	d	file:
+TRIGGER_WEIGHT	geometric_SP1.c	124;"	d	file:
+TRIGGER_WEIGHT	geometric_SP1.fast.c	121;"	d	file:
+TRIGGER_WEIGHT	geometric_SP1.good.c	113;"	d	file:
+TranslationVector	geometric_P3.h	/^} TranslationVector;$/;"	t	typeref:struct:__anon10
+TurningPoint	geometric_P3.h	/^} TurningPoint;$/;"	t	typeref:struct:__anon9
+VOIDPTR_SWAP	util.h	58;"	d
+VerticalTranslationTableItem	geometric_P3.h	/^} VerticalTranslationTableItem;$/;"	t	typeref:struct:__anon8
+WEIGHT_DURATION	geometric_SP1.c	54;"	d	file:
+WEIGHT_DURATION	geometric_SP1.fast.c	53;"	d	file:
+WEIGHT_DURATION	geometric_SP1.good.c	51;"	d	file:
+__ALGORITHMS_H__	algorithms.h	35;"	d
+__ALIGN_H__	align.h	33;"	d
+__ALIGN_P3_H__	align_P3.h	34;"	d
+__CONFIG_H__	config.h	34;"	d
+__DATA_FORMATS_H__	data_formats.h	34;"	d
+__DATA_H__	data.h	34;"	d
+__FILTER_P1_H__	filter_P1.h	35;"	d
+__FILTER_P2_H__	filter_P2.h	35;"	d
+__GEOMETRIC_P1_H__	geometric_P1.h	34;"	d
+__GEOMETRIC_P2_H__	geometric_P2.h	34;"	d
+__GEOMETRIC_P3_H__	geometric_P3.h	35;"	d
+__GEOMETRIC_SP1_H__	geometric_SP1.h	34;"	d
+__GEOMETRIC_SP1_H__	geometric_SP3.h	34;"	d
+__GEOMETRIC_SP2_H__	geometric_SP2.h	34;"	d
+__GH_H__	gh.h	34;"	d
+__INDEXTEST_H__	test.h	33;"	d
+__MIDIFILE_H__	midifile.h	33;"	d
+__PRIORITY_QUEUE_H__	priority_queue.h	35;"	d
+__RESULTS_H__	results.h	33;"	d
+__SEARCH_H__	search.h	34;"	d
+__SEARCH_MSM_H__	search_msm.h	35;"	d
+__SONG_H__	song.h	34;"	d
+__SONG_WINDOW_H__	song_window.h	34;"	d
+__SONG_WINDOW_P3_H__	song_window_P3.h	34;"	d
+__SYNC_P3_H__	sync_P3.h	35;"	d
+__UTIL_H__	util.h	34;"	d
+__VINDEX_ARRAY_H__	vindex_array.h	35;"	d
+__VINDEX_H__	vindex.h	35;"	d
+_test_parameters	test.h	/^typedef struct _test_parameters {$/;"	s
+a	partial.hpp	/^	int a,b,w;$/;"	m	struct:scale
+accuracy	align.h	/^    int accuracy;$/;"	m	struct:__anon4
+add_playing_notes	song_window.c	/^static void add_playing_notes(song *window, unsigned int *notes_on,$/;"	f	file:
+adjust_song_tempo	align.c	/^static void adjust_song_tempo(song *s, float scale) {$/;"	f	file:
+alg_info	algorithms.c	/^} alg_info;$/;"	t	typeref:struct:__anon1	file:
+alg_p1	geometric_P1.c	/^void alg_p1(const songcollection *sc, const song *pattern, int alg,$/;"	f
+alg_p2	geometric_P2.c	/^void alg_p2(const songcollection *sc, const song *pattern, int alg,$/;"	f
+alg_p2_points	geometric_P2.c	/^void alg_p2_points(const songcollection *sc, const song *pattern, int alg,$/;"	f
+alg_p3	geometric_P3.c	/^void alg_p3(const songcollection *sc, const song *pattern, int alg,$/;"	f
+alg_sp1	geometric_SP1.c	/^void alg_sp1(const songcollection *sc, const song *pattern, int alg,$/;"	f
+alg_sp2	geometric_SP2.c	/^void alg_sp2(const songcollection *sc, const song *pattern, int alg,$/;"	f
+alg_sp3	geometric_SP3.c	/^void alg_sp3(const songcollection *sc, const song *pattern, int alg,$/;"	f
+alg_sync_p3	sync_P3.c	/^void alg_sync_p3(const songcollection *sc, const song *pattern, int alg,$/;"	f
+algorithm	align.h	/^    int algorithm;$/;"	m	struct:__anon2
+algorithm_list	test.h	/^    int *algorithm_list;$/;"	m	struct:_test_parameters
+algorithm_name	test.h	/^    char *algorithm_name;$/;"	m	struct:_test_parameters
+align	align.c	/^void align(const songcollection *sc, const song *s, const song *p, int alg,$/;"	f
+align_free_parameters	align.c	/^void align_free_parameters(alignparameters *p) {$/;"	f
+align_init_parameters	align.c	/^void align_init_parameters(alignparameters *p) {$/;"	f
+align_midi_song	align.c	/^void align_midi_song(midisong *midi_s, alignment *a) {$/;"	f
+align_p3	align_P3.c	/^void align_p3(const songcollection *sc, const song *s, const song *p,$/;"	f
+align_parse_arguments	align.c	/^int align_parse_arguments(int argc, char **argv, alignparameters *p) {$/;"	f
+align_print_usage	align.c	/^static void align_print_usage(const alignparameters *p) {$/;"	f	file:
+align_turningpoints_p3	align_P3.c	/^static void align_turningpoints_p3(const p3song *p3s, const song *pattern,$/;"	f	file:
+alignment	align.h	/^} alignment;$/;"	t	typeref:struct:__anon5
+alignment_check_p1	geometric_P1.c	/^match *alignment_check_p1(const song *s, unsigned short songpos,$/;"	f
+alignment_check_p2	geometric_P2.c	/^match *alignment_check_p2(const song *s, unsigned short songpos,$/;"	f
+alignmentline	align.h	/^} alignmentline;$/;"	t	typeref:struct:__anon3
+alignmentmap	align.h	/^} alignmentmap;$/;"	t	typeref:struct:__anon4
+alignparameters	align.h	/^} alignparameters;$/;"	t	typeref:struct:__anon2
+asDouble	priority_queue.h	/^    double asDouble;$/;"	m	union:__anon18
+asMask	priority_queue.h	/^    doubleMask asMask;$/;"	m	union:__anon18
+avindex_vector_max_height	data_formats.h	/^    int avindex_vector_max_height;$/;"	m	struct:__anon6
+avindex_vector_max_width	data_formats.h	/^    int avindex_vector_max_width;$/;"	m	struct:__anon6
+b	partial.hpp	/^	int a,b,w;$/;"	m	struct:scale
+bank	song.h	/^    short bank;$/;"	m	struct:__anon26
+bitcount32	util.c	/^int bitcount32(unsigned int n) {$/;"	f
+bitcount_16	util.c	/^static unsigned char bitcount_16[1<<16];$/;"	v	file:
+bitcount_initialized	util.c	/^static int bitcount_initialized = 0;$/;"	v	file:
+buffer	midifile.h	/^    unsigned char *buffer;$/;"	m	struct:__anon16
+buffer	vindex_array.h	/^    char *buffer;$/;"	m	struct:__anon37
+buffer_size	midifile.h	/^    int buffer_size;$/;"	m	struct:__anon16
+build_p3_song_collection	geometric_P3.c	/^int build_p3_song_collection(void *p3sc, const songcollection *sc,$/;"	f
+build_vectorindex	vindex_array.c	/^int build_vectorindex(void *data, const songcollection *sc,$/;"	f
+c	partial.hpp	/^	int c,z;$/;"	m	struct:scale
+c_geometric_sp1_scan	geometric_SP1.fast.c	/^int c_geometric_sp1_scan(const song *s, const song *p, matchset *ms) {$/;"	f
+c_geometric_sp1_scan	geometric_SP1.good.c	/^int c_geometric_sp1_scan(const song *s, const song *p, matchset *ms) {$/;"	f
+c_window	data_formats.h	/^    int c_window;$/;"	m	struct:__anon6
+c_window	search.h	/^    int c_window;$/;"	m	struct:__anon24
+c_window	vindex_array.h	/^    int c_window;$/;"	m	struct:__anon37
+calculate_initial_alignment	align.c	/^void calculate_initial_alignment(const alignparameters *parameters,$/;"	f
+channel	song.h	/^    unsigned char channel;$/;"	m	struct:__anon26
+clear_alignment	align.c	/^void clear_alignment(alignment *a) {$/;"	f
+clear_data_format	data.c	/^void clear_data_format(int format, void *data) {$/;"	f
+clear_match_set	results.c	/^void clear_match_set(matchset *ms) {$/;"	f
+clear_p3_song_collection	geometric_P3.c	/^void clear_p3_song_collection(void *p3sc) {$/;"	f
+clear_vectorindex	vindex_array.c	/^void clear_vectorindex(void *data) {$/;"	f
+cmp	partial.hpp	/^struct cmp {$/;"	s
+cmp_int	util.c	/^int cmp_int(const void *a, const void *b) {$/;"	f
+collection_notes	test.h	/^    int *collection_notes;$/;"	m	struct:_test_parameters
+compare_notes	song.c	/^int compare_notes(const void *aa, const void *bb) {$/;"	f
+compare_turningpoints	geometric_P3.c	/^int compare_turningpoints(const void *aa, const void *bb) {$/;"	f
+control	song.h	/^    mididata control;$/;"	m	struct:__anon30
+convert_song_collection	data.c	/^int convert_song_collection(int format, void *data, const songcollection *sc,$/;"	f
+create_K_table	partial.cpp	/^void create_K_table(int W, const std::vector<note>& P, const std::vector<note>& T, $/;"	f
+d_window	search.h	/^    int d_window;$/;"	m	struct:__anon24
+data	gh.h	/^    unsigned short **data;$/;"	m	struct:__anon13
+data	midifile.h	/^    const unsigned char *data;$/;"	m	struct:__anon15
+data	song.h	/^    unsigned char *data;$/;"	m	struct:__anon28
+data	song.h	/^    void *data[NUM_DATA_FORMATS+1];$/;"	m	struct:__anon31
+data_parameters	test.h	/^    dataparameters data_parameters;$/;"	m	struct:_test_parameters
+dataparameters	data_formats.h	/^} dataparameters;$/;"	t	typeref:struct:__anon6
+delay	align.h	/^    int delay;$/;"	m	struct:__anon2
+delay_alignment	align.c	/^void delay_alignment(alignment *a, int delay) {$/;"	f
+description	algorithms.c	/^    const char *description;$/;"	m	struct:__anon1	file:
+distance_matrix_file	test.h	/^    char *distance_matrix_file;$/;"	m	struct:_test_parameters
+distort_pattern	geometrictest.c	/^static void distort_pattern(song *out, song *in, float errors) {$/;"	f	file:
+doubleAndMask	priority_queue.h	/^} doubleAndMask;$/;"	t	typeref:union:__anon18
+doubleMask	priority_queue.h	/^} doubleMask;$/;"	t	typeref:struct:__anon17
+dur	song.h	/^    int dur;$/;"	m	struct:__anon25
+duration	song.h	/^    int duration;$/;"	m	struct:__anon30
+e	song.h	/^    midievent *e;$/;"	m	struct:__anon29
+e1	song_window_P3.h	/^    int e1, e2;$/;"	m	struct:__anon33
+e2	song_window_P3.h	/^    int e1, e2;$/;"	m	struct:__anon33
+end	results.h	/^    int end;$/;"	m	struct:__anon21
+endpoints	geometric_P3.h	/^    TurningPoint *endpoints;$/;"	m	struct:__anon11
+endpoints	song_window_P3.h	/^    TurningPoint *endpoints;$/;"	m	struct:__anon33
+exponentbias1023	priority_queue.h	/^    unsigned int exponentbias1023:11;$/;"	m	struct:__anon17
+file	S2.cpp	/^struct file {$/;"	s	file:
+filter_p1_random	filter_P1.c	/^void filter_p1_random(const songcollection *sc, const song *pattern,$/;"	f
+filter_p1_sample	filter_P1.c	/^void filter_p1_sample(const songcollection *sc, const song *pattern,$/;"	f
+filter_p1_select_1	filter_P1.c	/^void filter_p1_select_1(const songcollection *sc, const song *pattern,$/;"	f
+filter_p1_select_2	filter_P1.c	/^void filter_p1_select_2(const songcollection *sc, const song *pattern,$/;"	f
+filter_p2_greedy_pigeonhole	filter_P2.c	/^void filter_p2_greedy_pigeonhole(const songcollection *sc, const song *pattern,$/;"	f
+filter_p2_pigeonhole	filter_P2.c	/^void filter_p2_pigeonhole(const songcollection *sc, const song *pattern,$/;"	f
+filter_p2_points	filter_P2.c	/^void filter_p2_points(const songcollection *sc, const song *pattern,$/;"	f
+filter_p2_select_global	filter_P2.c	/^void filter_p2_select_global(const songcollection *sc, const song *pattern,$/;"	f
+filter_p2_select_local	filter_P2.c	/^void filter_p2_select_local(const songcollection *sc, const song *pattern,$/;"	f
+filter_p2_window	filter_P2.c	/^void filter_p2_window(const songcollection *sc, const song *pattern,$/;"	f
+free_alignment	align.c	/^void free_alignment(alignment *a) {$/;"	f
+free_alignmentmap	align.c	/^void free_alignmentmap(alignmentmap *map) {$/;"	f
+free_data_format	data.c	/^void free_data_format(int format, void *data) {$/;"	f
+free_match	results.c	/^void free_match(match *m) {$/;"	f
+free_match_set	results.c	/^void free_match_set(matchset *ms) {$/;"	f
+free_matrix	test_distances.c	/^static void free_matrix(float **m, int a) {$/;"	f	file:
+free_midisong	midifile.c	/^void free_midisong(midisong *midi_s) {$/;"	f
+free_p3_song	geometric_P3.c	/^void free_p3_song(p3song *p3s) {$/;"	f
+free_p3_song_collection	geometric_P3.c	/^void free_p3_song_collection(void *p3sc) {$/;"	f
+free_p3s_window	song_window_P3.c	/^void free_p3s_window(p3s_window *w) {$/;"	f
+free_song	song.c	/^void free_song(song *s) {$/;"	f
+free_song_collection	song.c	/^void free_song_collection(songcollection *sc) {$/;"	f
+free_song_collection_data	song.c	/^void free_song_collection_data(songcollection *sc) {$/;"	f
+free_song_window	song_window.c	/^void free_song_window(song_window *w) {$/;"	f
+free_vectorindex	vindex_array.c	/^void free_vectorindex(void *data) {$/;"	f
+generate_pattern	song.c	/^int generate_pattern(song *pattern, const songcollection *sc, match *m,$/;"	f
+generate_pattern_collection	song.c	/^int generate_pattern_collection(int patterncount, songcollection *pc,$/;"	f
+generate_random_pattern	geometrictest.c	/^static void generate_random_pattern(song *p, int pattern_notes, int duration,$/;"	f	file:
+generate_score	geometrictest.c	/^static void generate_score(song *s, unsigned int duration, unsigned int notes,$/;"	f	file:
+generated_pattern_count	test.h	/^    int generated_pattern_count;$/;"	m	struct:_test_parameters
+generated_pattern_errors	test.h	/^    float generated_pattern_errors;$/;"	m	struct:_test_parameters
+generated_pattern_max_skip	test.h	/^    int generated_pattern_max_skip;$/;"	m	struct:_test_parameters
+generated_pattern_max_transposition	test.h	/^    int generated_pattern_max_transposition;$/;"	m	struct:_test_parameters
+generated_pattern_notes	test.h	/^    int *generated_pattern_notes;$/;"	m	struct:_test_parameters
+geometrichash	gh.h	/^} geometrichash;$/;"	t	typeref:struct:__anon14
+get_algorithm_data_format	algorithms.c	/^int get_algorithm_data_format(int alg) {$/;"	f
+get_algorithm_description	algorithms.c	/^const char *get_algorithm_description(int alg) {$/;"	f
+get_algorithm_full_name	algorithms.c	/^const char *get_algorithm_full_name(int alg) {$/;"	f
+get_algorithm_id	algorithms.c	/^int get_algorithm_id(const char *name) {$/;"	f
+get_algorithm_name	algorithms.c	/^const char *get_algorithm_name(int alg) {$/;"	f
+get_algorithm_subtype	algorithms.c	/^int get_algorithm_subtype(int alg) {$/;"	f
+get_algorithm_type	algorithms.c	/^int get_algorithm_type(int alg) {$/;"	f
+get_index_vector	vindex_array.h	/^static INLINE indexvector *get_index_vector(const vectorindex *vindex,$/;"	f
+h	gh.h	/^    int w, h;$/;"	m	struct:__anon14
+hashrecord	gh.h	/^} hashrecord;$/;"	t	typeref:struct:__anon13
+height	align.h	/^    int height;$/;"	m	struct:__anon4
+height	vindex_array.h	/^    int height;$/;"	m	struct:__anon37
+highest	test.h	/^    double highest;$/;"	m	struct:__anon34
+i	song.h	/^    instrument *i;$/;"	m	struct:__anon27
+id	algorithms.c	/^    int id;$/;"	m	struct:__anon1	file:
+id	song.h	/^    int id;$/;"	m	struct:__anon30
+index	algorithms.c	/^    int index;$/;"	m	struct:__anon1	file:
+index	priority_queue.h	/^    unsigned int index;$/;"	m	struct:__anon19
+index_vector_position	vindex_array.c	/^static INLINE int index_vector_position(const vectorindex *vindex, int x, int y) {$/;"	f	file:
+indexing	results.h	/^   double indexing;$/;"	m	struct:__anon22
+indexing_q2	test.h	/^    double indexing_q2;$/;"	m	struct:__anon34
+indexrec	vindex_array.h	/^} indexrec;$/;"	t	typeref:struct:__anon35
+indexvector	vindex_array.h	/^} indexvector;$/;"	t	typeref:struct:__anon36
+init_alignment	align.c	/^alignment *init_alignment(void) {$/;"	f
+init_alignmentmap	align.c	/^alignmentmap *init_alignmentmap(void) {$/;"	f
+init_bitcount	util.c	/^void init_bitcount(void) {$/;"	f
+init_bitcount_table	gh.c	/^static void init_bitcount_table() {$/;"	f	file:
+init_data_format	data.c	/^void *init_data_format(int format) {$/;"	f
+init_match_set	results.c	/^int init_match_set(matchset *ms, int size, int pattern_size,$/;"	f
+init_matrix	test_distances.c	/^static float **init_matrix(int a, int b) {$/;"	f	file:
+init_p3_song	geometric_P3.c	/^void init_p3_song(p3song *p3s) {$/;"	f
+init_p3_song_collection	geometric_P3.c	/^void *init_p3_song_collection(void) {$/;"	f
+init_p3s_window	song_window_P3.c	/^void init_p3s_window(p3s_window *w, const p3song *p3s) {$/;"	f
+init_song	song.c	/^void init_song(song *s, int id, const char *title, int maxnotes) {$/;"	f
+init_song_collection	song.c	/^int init_song_collection(songcollection *sc, int maxsongs) {$/;"	f
+init_song_window	song_window.c	/^void init_song_window(song_window *w, const song *s, int relative_time) {$/;"	f
+init_vectorindex	vindex_array.c	/^void *init_vectorindex(void) {$/;"	f
+initial_slope	align.h	/^    float initial_slope;$/;"	m	struct:__anon3
+insert_match	results.c	/^match *insert_match(matchset *ms, int songid, int start, int end,$/;"	f
+insert_pattern_to_song	song.c	/^void insert_pattern_to_song(song *s, int songpos, const song *p, float errors,$/;"	f
+insert_patterns	song.c	/^void insert_patterns(songcollection *sc, const songcollection *pc,$/;"	f
+inserted_pattern_instances	test.h	/^    int inserted_pattern_instances;$/;"	m	struct:_test_parameters
+inserted_pattern_noise	test.h	/^    float inserted_pattern_noise;$/;"	m	struct:_test_parameters
+instrument	song.h	/^    unsigned short instrument;$/;"	m	struct:__anon25
+instrument	song.h	/^} instrument;$/;"	t	typeref:struct:__anon26
+instrumentdata	song.h	/^} instrumentdata;$/;"	t	typeref:struct:__anon27
+instruments	song.h	/^    instrumentdata instruments;$/;"	m	struct:__anon30
+iv	filter_P2.h	/^    indexvector *iv;$/;"	m	struct:__anon7
+join_songs	song.c	/^songcollection *join_songs(songcollection *sc, int gap, int num_songs,$/;"	f
+join_songs	test.h	/^    int join_songs;$/;"	m	struct:_test_parameters
+key1	priority_queue.h	/^    int key1;$/;"	m	struct:__anon19
+key2	priority_queue.h	/^    int key2;$/;"	m	struct:__anon19
+kth_smallest	util.c	/^int kth_smallest(int a[], int n, int k) {$/;"	f
+kth_smallest_double	util.c	/^double kth_smallest_double(double a[], int n, int k) {$/;"	f
+length	midifile.h	/^    int length;$/;"	m	struct:__anon15
+lexicographic_sort	song.c	/^void lexicographic_sort(song *s) {$/;"	f
+lines	align.h	/^    alignmentline *lines;$/;"	m	struct:__anon4
+load_song_collection	test.c	/^static int load_song_collection(const test_parameters *p, songcollection *sc,$/;"	f	file:
+lowest	test.h	/^    double lowest;$/;"	m	struct:__anon34
+main	S2.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	align.c	/^int main(int argc, char **argv) {$/;"	f
+main	geometrictest.c	/^int main(int argc, char **argv) {$/;"	f
+main	test_distances.c	/^int main(int argc, char **argv) {$/;"	f
+main	test_precision_recall.c	/^int main(int argc, char **argv) {$/;"	f
+main	test_qbsh.c	/^int main(int argc, char **argv) {$/;"	f
+main	test_speed.c	/^int main(int argc, char **argv) {$/;"	f
+make_pattern	geometrictest.c	/^static void make_pattern(song *p, song *s, int pattern_notes,$/;"	f	file:
+make_short_options	util.c	/^char *make_short_options(const struct option *long_options) {$/;"	f
+mantissa1	priority_queue.h	/^    unsigned int mantissa1:20;$/;"	m	struct:__anon17
+mantissa2	priority_queue.h	/^    unsigned int mantissa2:32;$/;"	m	struct:__anon17
+map_accuracy	align.h	/^    int map_accuracy;$/;"	m	struct:__anon2
+map_alignments	align.c	/^void map_alignments(const songcollection *sc, const song *s, const song *p,$/;"	f
+mapping_algorithm	align.h	/^    int mapping_algorithm;$/;"	m	struct:__anon2
+match	results.h	/^} match;$/;"	t	typeref:struct:__anon21
+match_overlap	results.c	/^static INLINE int match_overlap(match *m, int start, int end) {$/;"	f	file:
+matches	results.h	/^    match *matches;$/;"	m	struct:__anon23
+matchset	results.h	/^} matchset;$/;"	t	typeref:struct:__anon23
+max_pattern_size	align.h	/^    int max_pattern_size;$/;"	m	struct:__anon2
+max_slope	align.h	/^    float max_slope;$/;"	m	struct:__anon2
+max_song_size	song.h	/^    int max_song_size;$/;"	m	struct:__anon31
+mean	test.h	/^    double mean;$/;"	m	struct:__anon34
+measure	results.h	/^   int measure;$/;"	m	struct:__anon22
+measure_time_allocation	search.h	/^    int measure_time_allocation;$/;"	m	struct:__anon24
+measurement_points	test.h	/^    int measurement_points;$/;"	m	struct:_test_parameters
+median	util.h	89;"	d
+memory_usage	vindex_array.h	/^    int memory_usage;$/;"	m	struct:__anon37
+metatype	midifile.h	/^    unsigned char metatype;$/;"	m	struct:__anon15
+midi_parse_int	midifile.c	/^static INLINE unsigned int midi_parse_int(const unsigned char *buffer, int *i) {$/;"	f	file:
+midi_parse_short	midifile.c	/^static INLINE unsigned short midi_parse_short(const unsigned char *buffer,$/;"	f	file:
+midi_parse_varlen	midifile.c	/^static INLINE int midi_parse_varlen(const unsigned char *buffer, int *i) {$/;"	f	file:
+midi_song_get_next_event	align.c	/^static INLINE void midi_song_get_next_event(midisong *midi_s,$/;"	f	file:
+midi_song_init_event_queue	align.c	/^static INLINE void midi_song_init_event_queue(midisong *midi_s,$/;"	f	file:
+midi_write_event	midifile.c	/^static INLINE void midi_write_event(track_event *event, int tick,$/;"	f	file:
+midi_write_int	midifile.c	/^static INLINE void midi_write_int(unsigned int value, unsigned char *buffer,$/;"	f	file:
+midi_write_short	midifile.c	/^static INLINE void midi_write_short(unsigned short value, unsigned char *buffer,$/;"	f	file:
+midi_write_varlen	midifile.c	/^static INLINE void midi_write_varlen(unsigned int value, unsigned char *buffer,$/;"	f	file:
+mididata	song.h	/^} mididata;$/;"	t	typeref:struct:__anon29
+midievent	song.h	/^} midievent;$/;"	t	typeref:struct:__anon28
+midisong	midifile.h	/^} midisong;$/;"	t	typeref:struct:__anon16
+module_name	song.h	/^    char *module_name;$/;"	m	struct:__anon26
+move_edge	song_window.c	/^static void move_edge(int new_x, int old_x,$/;"	f	file:
+move_p3s_window	song_window_P3.c	/^void move_p3s_window(p3s_window *w, int x1, int x2) {$/;"	f
+move_p3s_window_edge	song_window_P3.c	/^static void move_p3s_window_edge(int new_x, int old_x,$/;"	f	file:
+move_p3s_window_edge_init	song_window_P3.c	/^static void move_p3s_window_edge_init(const p3s_window *w,$/;"	f	file:
+move_p3s_window_mark_playing_notes	song_window_P3.c	/^static void move_p3s_window_mark_playing_notes(unsigned int *notes_on,$/;"	f	file:
+move_song_window	song_window.c	/^void move_song_window(song_window *w, int x1, int x2) {$/;"	f
+msm_r	search.h	/^    int msm_r;$/;"	m	struct:__anon24
+multiple_matches_per_song	results.h	/^    int multiple_matches_per_song;$/;"	m	struct:__anon23
+multiple_matches_per_song	test.h	/^    int multiple_matches_per_song;$/;"	m	struct:_test_parameters
+n1	song_window.h	/^    int n1, n2;$/;"	m	struct:__anon32
+n2	song_window.h	/^    int n1, n2;$/;"	m	struct:__anon32
+name	algorithms.c	/^    const char *name;$/;"	m	struct:__anon1	file:
+name	midifile.h	/^    char *name;$/;"	m	struct:__anon16
+next_parameter_group	test.h	/^    struct _test_parameters *next_parameter_group;$/;"	m	struct:_test_parameters	typeref:struct:_test_parameters::_test_parameters
+nodecount	priority_queue.h	/^    unsigned int nodecount;$/;"	m	struct:__anon20
+nodes	priority_queue.h	/^    pqnode *nodes;$/;"	m	struct:__anon20
+normalize_alignmentmap	align.c	/^void normalize_alignmentmap(alignmentmap *map, int avoid_clipping) {$/;"	f
+note	partial.hpp	/^	note() {}$/;"	f	struct:note
+note	partial.hpp	/^	note(int x, int y) : x(x), y(y) {}$/;"	f	struct:note
+note	partial.hpp	/^struct note {$/;"	s
+note	vindex_array.h	/^    unsigned short note;$/;"	m	struct:__anon35
+notes	results.h	/^    int *notes;$/;"	m	struct:__anon21
+notes	song.h	/^    vector *notes;$/;"	m	struct:__anon30
+notes_on	song_window.h	/^    unsigned int notes_on[4];$/;"	m	struct:__anon32
+notes_on_1	song_window_P3.h	/^    unsigned int notes_on_1[4];$/;"	m	struct:__anon33
+notes_on_2	song_window_P3.h	/^    unsigned int notes_on_2[4];$/;"	m	struct:__anon33
+notes_on_p	song_window.h	/^    vector *notes_on_p[128];$/;"	m	struct:__anon32
+num_matches	results.h	/^    int num_matches;$/;"	m	struct:__anon23
+num_notes	results.h	/^    int num_notes;$/;"	m	struct:__anon21
+num_notes	song.h	/^    int num_notes;$/;"	m	struct:__anon31
+num_repeats	test.h	/^    int num_repeats;$/;"	m	struct:_test_parameters
+num_tracks	midifile.h	/^    int num_tracks;$/;"	m	struct:__anon16
+operator !=	partial.hpp	/^	bool operator != (const note& n) {$/;"	f	struct:note
+operator ()	partial.hpp	/^	bool operator () (scale* s1, scale* s2) {$/;"	f	struct:cmp
+operator <	S2.cpp	/^    bool operator < (const file& f) const {$/;"	f	struct:file
+operator <	partial.hpp	/^	bool operator < (const note& n) const {$/;"	f	struct:note
+operator <	partial.hpp	/^	bool operator < (const scale& s) const {$/;"	f	struct:scale
+operator <<	partial.cpp	/^std::ostream& operator << (std::ostream& o, const scale& s) {$/;"	f
+operator ==	partial.hpp	/^	bool operator == (const note& n) {$/;"	f	struct:note
+other	results.h	/^   double other;$/;"	m	struct:__anon22
+other_q2	test.h	/^    double other_q2;$/;"	m	struct:__anon34
+output	test.h	/^    char *output;$/;"	m	struct:_test_parameters
+output_indexing_time	test.h	/^    char *output_indexing_time;$/;"	m	struct:_test_parameters
+output_map	align.h	/^    char *output_map;$/;"	m	struct:__anon2
+output_midi	align.h	/^    char *output_midi;$/;"	m	struct:__anon2
+p1_sample_size	search.h	/^    int p1_sample_size;$/;"	m	struct:__anon24
+p2_compensate_quantization	geometric_P2.c	/^song *p2_compensate_quantization(const song *p, const int q) {$/;"	f
+p2_num_points	search.h	/^    int p2_num_points;$/;"	m	struct:__anon24
+p2_points	search.h	/^    int *p2_points;$/;"	m	struct:__anon24
+p2_select_threshold	search.h	/^    float p2_select_threshold;$/;"	m	struct:__anon24
+p2_window	search.h	/^    int p2_window;$/;"	m	struct:__anon24
+p3_calculate_difference	search.h	/^    int p3_calculate_difference;$/;"	m	struct:__anon24
+p3_num_scales	align.h	/^    int p3_num_scales;$/;"	m	struct:__anon2
+p3_optimize_song	song.c	/^void p3_optimize_song(song *s, int mingap, int mindur) {$/;"	f
+p3_optimize_song_collection	song.c	/^void p3_optimize_song_collection(songcollection *sc, int mingap, int mindur) {$/;"	f
+p3_pattern_window_size	align.h	/^    int p3_pattern_window_size;$/;"	m	struct:__anon2
+p3_remove_gaps	search.h	/^    int p3_remove_gaps;$/;"	m	struct:__anon24
+p3_scales	align.h	/^    float *p3_scales;$/;"	m	struct:__anon2
+p3_songs	geometric_P3.h	/^    p3song *p3_songs;$/;"	m	struct:__anon12
+p3s	song_window_P3.h	/^    const p3song *p3s;$/;"	m	struct:__anon33
+p3s_window	song_window_P3.h	/^} p3s_window;$/;"	t	typeref:struct:__anon33
+p3song	geometric_P3.h	/^} p3song;$/;"	t	typeref:struct:__anon11
+p3songcollection	geometric_P3.h	/^} p3songcollection;$/;"	t	typeref:struct:__anon12
+parse_event	midifile.c	/^static INLINE int parse_event(const unsigned char *buffer, int buffersize,$/;"	f	file:
+parse_tracks	midifile.c	/^static void parse_tracks(const unsigned char **tracks,$/;"	f	file:
+path	S2.cpp	/^    std::string path;$/;"	m	struct:file	file:
+pattern	align.h	/^    const song *pattern;$/;"	m	struct:__anon4
+pattern	align.h	/^    const song *pattern;$/;"	m	struct:__anon5
+pattern_duration	align.h	/^    int pattern_duration;$/;"	m	struct:__anon4
+pattern_is_start	geometric_P3.h	/^    char pattern_is_start;$/;"	m	struct:__anon10
+pattern_path	align.h	/^    char *pattern_path;$/;"	m	struct:__anon2
+pattern_path	test.h	/^    char *pattern_path;$/;"	m	struct:_test_parameters
+pattern_position	align.h	/^    int pattern_position;$/;"	m	struct:__anon3
+pattern_time	align.h	/^    int pattern_time;$/;"	m	struct:__anon3
+pattern_times	align.h	/^    int *pattern_times;$/;"	m	struct:__anon5
+patternify	S2.cpp	/^std::vector<note> patternify(const char* path) {$/;"	f
+patternindex	geometric_P3.h	/^    int patternindex;$/;"	m	struct:__anon10
+patternpos	filter_P2.h	/^    int patternpos;$/;"	m	struct:__anon7
+patternvector	filter_P2.h	/^} patternvector;$/;"	t	typeref:struct:__anon7
+pointer	priority_queue.h	/^    void *pointer;$/;"	m	struct:__anon19
+positions	gh.h	/^    int positions;$/;"	m	struct:__anon13
+pq_create	priority_queue.h	/^static INLINE pqroot *pq_create(unsigned int size) {$/;"	f
+pq_free	priority_queue.h	/^static INLINE void pq_free(pqroot *pq) {$/;"	f
+pq_getmin	priority_queue.h	356;"	d
+pq_getnode	priority_queue.h	337;"	d
+pq_log_2	priority_queue.h	/^static INLINE unsigned int pq_log_2(unsigned int n) {$/;"	f
+pq_update	priority_queue.h	/^static INLINE void pq_update(pqroot *pq, pqnode *n) {$/;"	f
+pq_update_key1_p2	priority_queue.h	/^static INLINE void pq_update_key1_p2(pqroot *pq, pqnode *n) {$/;"	f
+pq_update_key1_p3	priority_queue.h	/^static INLINE void pq_update_key1_p3(pqroot *pq, pqnode *n) {$/;"	f
+pqnode	priority_queue.h	/^} pqnode;$/;"	t	typeref:struct:__anon19
+pqroot	priority_queue.h	/^} pqroot;$/;"	t	typeref:struct:__anon20
+preprocess_songs	song.c	/^void preprocess_songs(songcollection *sc, int q, int shuffle, int notes) {$/;"	f
+prev_x	geometric_P3.h	/^    int prev_x;$/;"	m	struct:__anon8
+print_algorithms	algorithms.c	/^void print_algorithms() {$/;"	f
+print_alignment	align.c	/^void print_alignment(alignment *a) {$/;"	f
+print_filename	test_qbsh.c	/^static int print_filename(char *output, int output_size, int pos,$/;"	f	file:
+print_name	algorithms.c	/^    const char *print_name;$/;"	m	struct:__anon1	file:
+print_results	geometrictest.c	/^static void print_results(matchset *ms, songcollection *sc) {$/;"	f	file:
+print_results	search.c	/^void print_results(const matchset *ms, const songcollection *sc) {$/;"	f
+program	song.h	/^    char program;$/;"	m	struct:__anon26
+program_name	align.h	/^    char *program_name;$/;"	m	struct:__anon2
+program_name	song.h	/^    char *program_name;$/;"	m	struct:__anon26
+program_name	test.h	/^    char *program_name;$/;"	m	struct:_test_parameters
+ptch	song.h	/^    char ptch;$/;"	m	struct:__anon25
+q1	test.h	/^    double q1;$/;"	m	struct:__anon34
+q2	test.h	/^    double q2;$/;"	m	struct:__anon34
+q3	test.h	/^    double q3;$/;"	m	struct:__anon34
+quality	align.h	/^    unsigned char *quality;$/;"	m	struct:__anon5
+quantization	search.h	/^    int quantization;$/;"	m	struct:__anon24
+quantize	song.c	/^void quantize(song *s, int q) {$/;"	f
+randd	util.c	/^double randd(void) {$/;"	f
+randf	util.c	/^float randf(void) {$/;"	f
+read_file	util.c	/^void *read_file(const char *file, int minsize, int nullpadding, int *size) {$/;"	f
+read_midi_directory	midifile.c	/^int read_midi_directory(const char *path, songcollection *sc,$/;"	f
+read_midi_file	midifile.c	/^int read_midi_file(const char *path, song *s, midisong *midi_s,$/;"	f
+read_pgm	util.c	/^unsigned char *read_pgm(const char *file, int *width, int *height) {$/;"	f
+read_songfile	song.c	/^int read_songfile(const char *songfile, songcollection *sc) {$/;"	f
+records	gh.h	/^    hashrecord *records;$/;"	m	struct:__anon14
+records	vindex_array.h	/^    indexrec records[];$/;"	m	struct:__anon36
+relative	song_window.h	/^    int relative;$/;"	m	struct:__anon32
+remove_octave_information	song.c	/^void remove_octave_information(song *s) {$/;"	f
+remove_octaves	test.h	/^    int remove_octaves;$/;"	m	struct:_test_parameters
+remove_overlap	song.c	/^void remove_overlap(song *s) {$/;"	f
+reportOccurences	partial.cpp	/^void reportOccurences(const std::vector<note>& T, const std::vector<scale*>& Kaa) {$/;"	f
+result_row_label	test.h	/^    float result_row_label;$/;"	m	struct:_test_parameters
+results	test.h	/^    int results;$/;"	m	struct:_test_parameters
+round32	util.c	/^int round32(float x) {$/;"	f
+round64	util.c	/^int round64(double x) {$/;"	f
+run_test	test.c	/^void run_test(const test_parameters *p, test_function testf) {$/;"	f
+run_twice	test.h	/^    int run_twice;$/;"	m	struct:_test_parameters
+s	partial.hpp	/^	double s;$/;"	m	struct:scale
+s	song_window.h	/^    const song *s;$/;"	m	struct:__anon32
+s1	song_window_P3.h	/^    int s1, s2;$/;"	m	struct:__anon33
+s2	song_window_P3.h	/^    int s1, s2;$/;"	m	struct:__anon33
+sc	gh.h	/^    songcollection *sc;$/;"	m	struct:__anon14
+sc_remove_octave_information	song.c	/^void sc_remove_octave_information(const songcollection *sc) {$/;"	f
+scale	partial.hpp	/^struct scale {$/;"	s
+scan_midi_files	midifile.c	/^static void scan_midi_files(const char *path, songcollection *sc, int *count,$/;"	f	file:
+scan_p3	geometric_P3.c	/^int scan_p3(const p3song *p3s, const song *pattern,$/;"	f
+scan_song_p1	geometric_P1.c	/^int scan_song_p1(const song *s, const song *p, matchset *ms) {$/;"	f
+scan_song_p2	geometric_P2.c	/^int scan_song_p2(const song *s, const song *p, const int errors,$/;"	f
+scan_song_p2_1_point	geometric_P2.c	/^static int scan_song_p2_1_point(const song *s, const song *p, const int errors,$/;"	f	file:
+scan_song_p2_points	geometric_P2.c	/^int scan_song_p2_points(const song *s, const song *p,$/;"	f
+scan_song_sp1	geometric_SP1.c	/^int scan_song_sp1(const song *s, const song *p, matchset *ms) {$/;"	f
+scan_song_sp2	geometric_SP2.c	/^void scan_song_sp2(const song *s, const song *p, matchset *ms) {$/;"	f
+scan_song_sp3	geometric_SP3.c	/^void scan_song_sp3(const song *s, const song *p, matchset *ms) {$/;"	f
+scollection	vindex_array.h	/^    const songcollection *scollection;$/;"	m	struct:__anon37
+score	S2.cpp	/^    int score;$/;"	m	struct:file	file:
+scorify	S2.cpp	/^int scorify(const std::vector<scale*>& results) {$/;"	f
+search	search.c	/^void search(const songcollection *sc, const song *pattern, int alg,$/;"	f
+search_algorithm	align.h	/^    int search_algorithm;$/;"	m	struct:__anon2
+search_parameters	test.h	/^    searchparameters search_parameters;$/;"	m	struct:_test_parameters
+search_patterns	test_qbsh.c	/^static void search_patterns(const test_parameters *p, int algorithm,$/;"	f	file:
+search_patterns	test_speed.c	/^static void search_patterns(const test_parameters *p, int algorithm,$/;"	f	file:
+searchparameters	search.h	/^} searchparameters;$/;"	t	typeref:struct:__anon24
+searchtime	results.h	/^} searchtime;$/;"	t	typeref:struct:__anon22
+seed	test.h	/^    unsigned int seed;$/;"	m	struct:_test_parameters
+select_ground_truth_algorithm	test_precision_recall.c	/^static int select_ground_truth_algorithm(int alg) {$/;"	f	file:
+shift	filter_P2.h	/^    int shift;$/;"	m	struct:__anon7
+shuffle_patterns	test.h	/^    int shuffle_patterns;$/;"	m	struct:_test_parameters
+shuffle_songs	test.h	/^    int shuffle_songs;$/;"	m	struct:_test_parameters
+signbit	priority_queue.h	/^    unsigned int signbit:1;$/;"	m	struct:__anon17
+similarity	results.h	/^    float similarity;$/;"	m	struct:__anon21
+similarity_cutoff	test.h	/^    float similarity_cutoff;$/;"	m	struct:_test_parameters
+size	align.h	/^    int size;$/;"	m	struct:__anon5
+size	geometric_P3.h	/^    int size;$/;"	m	struct:__anon11
+size	geometric_P3.h	/^    int size;$/;"	m	struct:__anon12
+size	gh.h	/^    int size;$/;"	m	struct:__anon14
+size	priority_queue.h	/^    unsigned int size;$/;"	m	struct:__anon20
+size	results.h	/^    int size;$/;"	m	struct:__anon23
+size	song.h	/^    int size;$/;"	m	struct:__anon27
+size	song.h	/^    int size;$/;"	m	struct:__anon29
+size	song.h	/^    int size;$/;"	m	struct:__anon30
+size	song.h	/^    int size;$/;"	m	struct:__anon31
+size	vindex_array.h	/^    int size;$/;"	m	struct:__anon36
+size	vindex_array.h	/^    int size;$/;"	m	struct:__anon37
+skip_cost	align.h	/^    int skip_cost;$/;"	m	struct:__anon2
+skip_percussion	test.h	/^    int skip_percussion;$/;"	m	struct:_test_parameters
+slope	geometric_P3.h	/^    int slope;$/;"	m	struct:__anon8
+solve	partial.cpp	/^std::vector<scale*> solve(int alpha, int m, std::vector<std::vector<scale> >& K, PQV& Q) {$/;"	f
+song	geometric_P3.h	/^    const song *song;$/;"	m	struct:__anon11
+song	gh.h	/^    unsigned short song;$/;"	m	struct:__anon13
+song	results.h	/^    int song;$/;"	m	struct:__anon21
+song	song.h	/^} song;$/;"	t	typeref:struct:__anon30
+song	vindex_array.h	/^    unsigned short song;$/;"	m	struct:__anon35
+song_collection	geometric_P3.h	/^    const songcollection *song_collection;$/;"	m	struct:__anon12
+song_path	align.h	/^    char *song_path;$/;"	m	struct:__anon2
+song_path	test.h	/^    char *song_path;$/;"	m	struct:_test_parameters
+song_tempo	align.h	/^    float song_tempo;$/;"	m	struct:__anon2
+song_to_p3	geometric_P3.c	/^void song_to_p3(const song *s, p3song *p3s) {$/;"	f
+song_window	song_window.h	/^} song_window;$/;"	t	typeref:struct:__anon32
+songcollection	song.h	/^} songcollection;$/;"	t	typeref:struct:__anon31
+songend	song_window_P3.h	/^    int songend;$/;"	m	struct:__anon33
+songs	song.h	/^    song *songs;$/;"	m	struct:__anon31
+start	results.h	/^    int start;$/;"	m	struct:__anon21
+startpoints	geometric_P3.h	/^    TurningPoint *startpoints;$/;"	m	struct:__anon11
+startpoints	song_window_P3.h	/^    TurningPoint *startpoints;$/;"	m	struct:__anon33
+status	midifile.h	/^    unsigned char status;$/;"	m	struct:__anon15
+strcicmp	util.c	/^int strcicmp(const char *s1, const char *s2) {$/;"	f
+strt	song.h	/^    int strt;$/;"	m	struct:__anon25
+subtype	algorithms.c	/^    int subtype;$/;"	m	struct:__anon1	file:
+sync_accuracy	search.h	/^    int sync_accuracy;$/;"	m	struct:__anon24
+sync_song_p3	sync_P3.c	/^static void sync_song_p3(const song *s, const song *p,$/;"	f	file:
+sync_turningpoints_p3	sync_P3.c	/^static void sync_turningpoints_p3(int pattern_size, const vector *pattern,$/;"	f	file:
+sync_window_size	search.h	/^    int sync_window_size;$/;"	m	struct:__anon24
+syncmap_accuracy	search.h	/^    int syncmap_accuracy;$/;"	m	struct:__anon24
+sz	partial.hpp	7;"	d
+t	filter_P2.h	/^    int t;$/;"	m	struct:__anon7
+target	align.h	/^    const song *target;$/;"	m	struct:__anon4
+target	align.h	/^    const song *target;$/;"	m	struct:__anon5
+target	song.h	/^    int target;$/;"	m	struct:__anon28
+target_duration	align.h	/^    int target_duration;$/;"	m	struct:__anon4
+target_time	align.h	/^    int target_time;$/;"	m	struct:__anon3
+target_times	align.h	/^    int *target_times;$/;"	m	struct:__anon5
+tbuffer	align.h	/^    char *tbuffer;$/;"	m	struct:__anon4
+tempo	song.h	/^    mididata tempo;$/;"	m	struct:__anon30
+test_execution_speed	test_speed.c	/^static char *test_execution_speed(const test_parameters *p, int alg,$/;"	f	file:
+test_free_parameters	test.c	/^void test_free_parameters(test_parameters *p) {$/;"	f
+test_function	test.h	/^typedef char *(*test_function)($/;"	t
+test_generate_patterns	test.c	/^int test_generate_patterns(const test_parameters *p,$/;"	f
+test_init_parameters	test.c	/^void test_init_parameters(test_parameters *p) {$/;"	f
+test_init_song_collection_data	test.c	/^void test_init_song_collection_data(const test_parameters *p,$/;"	f
+test_p2_select_points	test.c	/^void test_p2_select_points(searchparameters *sp, song *pattern, int verbose) {$/;"	f
+test_p3s_window	song_window_P3.c	/^void test_p3s_window(const song *s, int moves, int resets, int relative_time,$/;"	f
+test_parameters	test.h	/^} test_parameters;$/;"	t	typeref:struct:_test_parameters
+test_parse_algorithm_list	test.c	/^int *test_parse_algorithm_list(const char *string) {$/;"	f
+test_parse_arguments	test.c	/^int test_parse_arguments(int argc, char **argv, test_parameters *p) {$/;"	f
+test_parse_integer_list	test.c	/^int *test_parse_integer_list(const char *string) {$/;"	f
+test_precision_recall	test_precision_recall.c	/^static char *test_precision_recall(const test_parameters *p, int alg,$/;"	f	file:
+test_print_usage	test.c	/^void test_print_usage(const test_parameters *p) {$/;"	f
+test_qbsh	test_qbsh.c	/^static char *test_qbsh(const test_parameters *p, int alg,$/;"	f	file:
+test_read_patterns	test.c	/^int test_read_patterns(const test_parameters *p,$/;"	f
+test_read_songs	test.c	/^int test_read_songs(const test_parameters *p,$/;"	f
+test_song_window	song_window.c	/^void test_song_window(const song *s, int moves, int resets, int relative_time,$/;"	f
+text_is_start	geometric_P3.h	/^    char text_is_start;$/;"	m	struct:__anon10
+tick	midifile.h	/^    double tick;$/;"	m	struct:__anon15
+time	results.h	/^    searchtime time;$/;"	m	struct:__anon23
+time	song.h	/^    int time;$/;"	m	struct:__anon28
+time_measures	test.h	/^} time_measures;$/;"	t	typeref:struct:__anon34
+timediff	util.c	/^double timediff(struct timeval *time1, struct timeval *time0) {$/;"	f
+title	song.h	/^    char *title;$/;"	m	struct:__anon30
+tpindex	geometric_P3.h	/^    int tpindex;$/;"	m	struct:__anon10
+track	song.h	/^    short track;$/;"	m	struct:__anon26
+track_data	midifile.h	/^    track_event **track_data;$/;"	m	struct:__anon16
+track_event	midifile.h	/^} track_event;$/;"	t	typeref:struct:__anon15
+track_name	song.h	/^    char *track_name;$/;"	m	struct:__anon26
+track_size	midifile.h	/^    int *track_size;$/;"	m	struct:__anon16
+transposition	results.h	/^    char transposition;$/;"	m	struct:__anon21
+transpositions	align.h	/^    char *transpositions;$/;"	m	struct:__anon3
+tree	priority_queue.h	/^    pqnode **tree;$/;"	m	struct:__anon20
+type	algorithms.c	/^    int type;$/;"	m	struct:__anon1	file:
+type	song.h	/^    int type;$/;"	m	struct:__anon28
+update_song_collection_data	song.c	/^void update_song_collection_data(songcollection *sc, const int *algorithm_list,$/;"	f
+update_song_collection_statistics	song.c	/^void update_song_collection_statistics(songcollection *sc) {$/;"	f
+value	geometric_P3.h	/^    int value;$/;"	m	struct:__anon8
+value	song.h	/^    int value;$/;"	m	struct:__anon28
+values	align.h	/^    unsigned char *values;$/;"	m	struct:__anon3
+vbuffer	align.h	/^    unsigned char *vbuffer;$/;"	m	struct:__anon4
+vector	song.h	/^} vector;$/;"	t	typeref:struct:__anon25
+vectorindex	vindex_array.h	/^} vectorindex;$/;"	t	typeref:struct:__anon37
+vectors	vindex_array.h	/^    indexvector **vectors;$/;"	m	struct:__anon37
+velocity	song.h	/^    char velocity;$/;"	m	struct:__anon25
+verbose	align.h	/^    int verbose;$/;"	m	struct:__anon2
+verbose	test.h	/^    int verbose;$/;"	m	struct:_test_parameters
+verifying	results.h	/^   double verifying;$/;"	m	struct:__anon22
+verifying_q2	test.h	/^    double verifying_q2;$/;"	m	struct:__anon34
+w	gh.h	/^    int w, h;$/;"	m	struct:__anon14
+w	partial.hpp	/^	int a,b,w;$/;"	m	struct:scale
+wholePath	S2.cpp	/^    std::string wholePath;$/;"	m	struct:file	file:
+width	align.h	/^    int width;$/;"	m	struct:__anon4
+width	vindex_array.h	/^    int width;$/;"	m	struct:__anon37
+window	gh.h	/^    int window;$/;"	m	struct:__anon14
+window	song_window.h	/^    song window;$/;"	m	struct:__anon32
+window	song_window_P3.h	/^    p3song window;$/;"	m	struct:__anon33
+words	gh.h	/^    int words;$/;"	m	struct:__anon13
+write_alignmentmap_pgm	align.c	/^void write_alignmentmap_pgm(const char *filename, const alignmentmap *map,$/;"	f
+write_distance_matrix	test_distances.c	/^static void write_distance_matrix(indextest_parameters *p, int algorithm,$/;"	f	file:
+write_midi_file	midifile.c	/^int write_midi_file(const char *path, const midisong *midi_s,$/;"	f
+write_pgm	geometric_SP1.c	/^static void write_pgm(const char *path, const unsigned char *data,$/;"	f	file:
+write_pgm	geometric_SP1.fast.c	/^static void write_pgm(const char *path, const unsigned char *data,$/;"	f	file:
+write_pgm	geometric_SP1.good.c	/^static void write_pgm(const char *path, const unsigned char *data,$/;"	f	file:
+write_pgm	util.c	/^void write_pgm(const char *file, unsigned char *image, int width, int height) {$/;"	f
+x	geometric_P3.h	/^    int x;$/;"	m	struct:__anon10
+x	geometric_P3.h	/^    int x;$/;"	m	struct:__anon9
+x	partial.hpp	/^	int x,y;$/;"	m	struct:note
+x1	song_window.h	/^    int x1, x2;$/;"	m	struct:__anon32
+x1	song_window_P3.h	/^    int x1, x2;$/;"	m	struct:__anon33
+x2	song_window.h	/^    int x1, x2;$/;"	m	struct:__anon32
+x2	song_window_P3.h	/^    int x1, x2;$/;"	m	struct:__anon33
+y	geometric_P3.h	/^    int y;$/;"	m	struct:__anon10
+y	geometric_P3.h	/^    int y;$/;"	m	struct:__anon9
+y	partial.hpp	/^	int x,y;$/;"	m	struct:note
+y	partial.hpp	/^	scale* y;$/;"	m	struct:scale
+z	partial.hpp	/^	int c,z;$/;"	m	struct:scale
