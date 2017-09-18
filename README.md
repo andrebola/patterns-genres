@@ -1,1 +1,13 @@
 # patterns-genres
+
+
+P2 algorithm
+------------
+
+
+The code in the folder p2_family was originally written by Mika Laitinen, some modification were made by Andres Ferraro in order to split the input midi file and query using the note sequences. 
+
+The scripts generate_patterns_tonic.py and generate_patterns.py where used to run the P2 algorithm over the Lakh dataset of midis, only to the songs annotated by genre. 
+To run this scripts first the code needs to be compiled by running `make all`
+
+The information of which midi files should be processed is in the file midi_w_genre.json. The output will be one json file per Midi file and will be placed in the folder specified in the script.
