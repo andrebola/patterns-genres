@@ -26,7 +26,7 @@ def main():
                         output = {}
                         for length, window, similarity  in [("3","2","0.9"), ("4","2","0.9"), ("5","3","0.9"), ("10","5","0.6"), ("15","3","0.6"), ("20","3","0.6"), ("25","3","0.6")]:
                             new_file, filename = tempfile.mkstemp()
-                            return_code = call([p2_location + " ".join(["", midifile, filename, length, window, similarity])], shell=True)
+                            return_code = call([p2_location + " ".join(["", midifile, filename, length, window, similarity, '1'])], shell=True)
                             patterns = json.load(open(filename))
                             os.close(new_file)
                             os.unlink(filename)
