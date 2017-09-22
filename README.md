@@ -15,12 +15,12 @@ The information of which midi files should be processed is in the file midi_w_ge
 Sia algorithm
 -------------
 
-The code was originally written by David Meredith, and has been modified by Andrés Ferraro on Aug-2017.
+The code in the folder siatec was originally written by David Meredith, and has been modified by Andrés Ferraro on Aug-2017.
 
-The main is located in the file SiaMain.java, where intially the folder containing the midis of the Lakh dataset is loaded and only the files with genre annotations are processed. The information of which files contains genre annotations is read from the file midi_w_genre.json.
+The main is located in the file SiaMain.java, where initially the folder containing the midis of the Lakh dataset is loaded and only the files with genre annotations are processed. The information of which files contains genre annotations is read from the file midi_w_genre.json.
 
 To compile the code execute:
 
-ant -f . -Dnb.internal.action.name=rebuild clean jar
+`ant -f . -Dnb.internal.action.name=rebuild clean jar`
 
 Finally, the script siatec.sh could be used to run the code.
