@@ -24,3 +24,14 @@ To compile the code execute:
 ant -f . -Dnb.internal.action.name=rebuild clean jar
 
 Finally, the script siatec.sh could be used to run the code.
+
+Scripts
+-------
+
+Inside the folder "scripts" is located the code used to make the classification by genre using the different patters, and a script used to count the different patters found for each algorithm.
+
+Data
+-----
+
+The data folder contains 3 json files with the genre annotations and bit per quarter note of each midi file.
+
