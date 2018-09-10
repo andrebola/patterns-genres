@@ -35,3 +35,12 @@ Data
 
 The data folder contains 3 json files with the genre annotations and bit per quarter note of each midi file.
 
+This folder also contains the file **final_patterns.tar.gz** with final patterns extracted by the algorithm P2 with a length of 5 notes, which is the setting that gave the best results in the classification.
+
+Citations
+-----
+
+For citations you can reference this paper::
+
+
+Andrés Ferraro, and Kjell Lemtröm. **"On large-scale genre classification in symbolically encoded music by automatic identification of repeating patterns"**. 5th International Conference on Digital Libraries for Musicology (DLfM '18), September 28, 2018, Paris, France.
